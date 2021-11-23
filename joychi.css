@@ -1,8 +1,8 @@
 *{
     color: rgb(255, 255, 255);
-    font-family: 'Shippori Antique', sans-serif;
+    font-family: 'Secular One', sans-serif;
 }
-body{    background-image: url(https://wallpaperaccess.com/full/1386514.jpg);
+body{    background-image: url(https://images.pexels.com/photos/924824/pexels-photo-924824.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -16,123 +16,70 @@ body{    background-image: url(https://wallpaperaccess.com/full/1386514.jpg);
     font-size: 100px;
     animation: trola 1.5s linear ;
 }
-
 .flex-container{
     display: flex;
     padding: 20px;
     animation: trola 1s linear;
 }
-
 .flex-item{
     margin: 10px;
     padding: 10px;
 }
-
-
 th{
-    width: 500px;
+    font-size: 20px;
     color: red;
 }
-
 th,td{
     text-align: center;
     width: 150px;
-
 }
-
 td,th{
     height: 40px;
     border: 4px solid #9b1700;
 border-radius: 10px;
 }
-
 h2{
     color: rgb(255, 255, 255);
     margin: 5px;
-    height: 40px;
+    height: 60px;
     text-align: center;
     border: 1px solid rgb(255, 0, 0);
     background-color: brown;
 }
-
-.flex-item2{
-    margin: 10px;
-    padding: 10px;
-}
-.flex-item3{
-    margin: 10px;
-    padding: 10px;
-}
-.flex-item4{
-    margin: 10px;
-    padding: 10px;
-}
-
-.flex-item5{
-    margin: 10px;
-    padding: 10px;
-}
-
 .flex-item:hover{
-    font-size: 20px;
-    transition: all 1s;
-    border: 4px solid white;
     animation: pija 3s  infinite linear;
     position: relative;
 }
-
 @keyframes pija{
     0%{
-        border: 4px solid rgb(123, 253, 2);
+        border: 7px solid #ff0000;
+        border-radius: 40px 40px 40px 31px;
+    }
+
+    25%{
+        border: 7px solid #1eff00;
+    border-radius: 40px 40px 40px 31px;
     }
 
     50%{
-        border: 4px solid rgb(255, 136, 0);
+        border: 7px solid #0077ff;
+    border-radius: 40px 40px 40px 31px;
     }
-
+    75%{
+        border: 7px solid #0400ff;
+    border-radius: 40px 40px 40px 31px;
+    }
     100%{
-        border: 4px solid rgb(255, 0, 0);
+        border: 7px solid #ff0000;
+    border-radius: 40px 40px 40px 31px;
     }
 }
-.flex-item2:hover{
-    font-size: 20px;
-    transition: all 1s;
-    border: 4px solid white;
-    animation: pija 3s  infinite linear;
-    position: relative;
-}
-.flex-item3:hover{
-    font-size: 20px;
-    transition: all 1s;
-    border: 4px solid white;
-    animation: pija 3s  infinite linear;
-    position: relative;
-}
-.flex-item4:hover{
-    font-size: 20px;
-    transition: all 1s;
-    border: 4px solid white;
-    animation: pija 3s  infinite linear;
-    position: relative;
-}
-.flex-item5:hover{
-    font-size: 20px;
-    transition: all 1s;
-    border: 2px solid white;
-    animation: pija 3s  infinite linear;
-    position: relative;
-}
-
 td:hover{
+    font-size: 20px;
     background-color: rgb(250, 35, 35);
 }
-
-@keyframes trola {
-    0%{
-        transform: translateX(100vh);
-    }
-
-    100%{
-        transform: translateX(0px);
-    }
+h2:hover{
+    border: 3px solid rgb(0, 255, 42);
+    background-color: green;
 }
+
